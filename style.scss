@@ -1,3 +1,9 @@
+/*
+    *****************
+    DONE BY:-   TUMMALA KETHAN
+    E-MAIL:-    tummala.kethan@gmail.com
+    *****************
+*/
 
 $no_algos: 6;
 
@@ -5,6 +11,7 @@ $no_algos: 6;
 {
     margin: 0px;
     padding: 0px;
+    position: relative;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: large;
     font-weight: bold;
@@ -14,6 +21,7 @@ $no_algos: 6;
 nav
 {
     background-color: rgb(59, 58, 58);
+    position: relative;
     color: white;
     display: grid;
     grid-template-columns: 30% 60%;
@@ -22,6 +30,7 @@ nav
     .array-inputs
     {
         display: grid;
+        position: relative;
         grid-template-columns: 60% 40%;
         place-content: center;
         padding: 5% 0%;
@@ -29,14 +38,17 @@ nav
         #a_size
         {
             padding: 5% 0%;
+            position: relative;
         }
         #a_speed
         {
             padding: 5% 0%;
+            position: relative;
         }
         #a_generate
         {
             background-color: transparent;
+            position: relative;
             border: none;
             outline: none;
             color: white;
@@ -51,11 +63,13 @@ nav
     .header_right
     {
         display: flex;
+        position: relative;
         flex-direction: column;
 
         .nav-heading
         {
             display: inline-block;
+            position: relative;
             //text-align: center;
             font-size: xxx-large;
             padding: 3% 0%;
@@ -63,12 +77,14 @@ nav
         .algos
         {
             display: grid;
+            position: relative;
             grid-template-columns: repeat($no_algos,(100%/$no_algos));
             place-content: center;
             padding: 2% 0%;
             button
             {
                 background-color: transparent;
+                position: relative;
                 border: none;
                 color: white;
                 outline: none;
@@ -77,6 +93,7 @@ nav
                 &:hover
                 {
                     background-color: blue;
+                    position: relative;
                     cursor: pointer;
                 }
             }
@@ -84,20 +101,24 @@ nav
             .butt_locked
             {
                 background-color: transparent;
+                position: relative;
                 cursor: pointer;
                 &:hover
                 {
                     background-color: transparent;
+                    position: relative;
                     cursor: pointer;
                 }
             }
             .butt_selected
             {
                 background-color: white;
+                position: relative;
                 color:green;
                 &:hover
                 {
                     background-color: white;
+                    position: relative;
                     cursor: pointer;
                 }
             }
@@ -106,6 +127,7 @@ nav
                 &:hover
                 {
                     background-color: blue;
+                    position: relative;
                     cursor: pointer;
                 }
             }
@@ -116,30 +138,30 @@ nav
 section
 {
     display: grid;
+    position: relative;
     grid-template-columns: 20% 60% 20%;
     #Info_Cont1
     {
         padding: 20%;
+        position: relative;
     }
     #array_container
     {
         display: flex;
         width: 100%;
         height: 70vh;
+        position: relative;
     }
     #Info_Cont2
     {
         padding: 20%;
+        position: relative;
     }
-}
-
-p{
-  text-align: center;
-  font: bold;
 }
 
 .hide
 {
     display: none;
+    position: relative;
 }
 
