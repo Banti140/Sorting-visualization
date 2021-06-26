@@ -137,6 +137,11 @@ section #Info_Cont2 {
   padding: 20%;
 }
 
+p{
+  text-align: center;
+  font: bold;
+}
+
 .hide {
   display: none;
 }
